@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata · Vinod Kumar Naik</title>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;600;700;900&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+:root {
+  --sand:     #F5E6C8;
+  --sand2:    #EDD9A3;
+  --sand3:    #E8CC88;
+  --terr:     #C0392B;
+  --terr2:    #A93226;
+  --terr3:    #7B241C;
+  --rose:     #D4856A;
+  --rose2:    #C97B5A;
+  --saffron:  #E8850A;
+  --saffron2: #F5A623;
+  --gold:     #C9922A;
+  --gold2:    #B8860B;
+  --gold3:    #D4A843;
+  --teal:     #1A6B6B;
+  --teal2:    #0D4D4D;
+  --ink:      #2C1A0E;
+  --ink2:     #3D2410;
+  --mid:      #7A5230;
+  --paper:    #FBF0D8;
+  --paper2:   #F5E3BC;
+}
+
+body {
+  background: #3D1F0A;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 1px, transparent 1px, transparent 20px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 1px, transparent 1px, transparent 20px);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px 60px;
+  font-family: 'Lora', Georgia, serif;
+}
+
+.page {
+  width: 860px;
+  background: var(--paper);
+  position: relative;
+  background-image:
+    url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 4 4' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1' height='1' fill='%23C9922A' fill-opacity='0.06'/%3E%3C/svg%3E"),
+    linear-gradient(160deg, %23FBF0D8 0%25, %23F5E3BC 100%25);
+}
+
+.border-wrap {
+  margin: 14px;
+  border: 2.5px solid var(--gold2);
+  position: relative;
+}
+.border-wrap::before {
+  content: '';
+  position: absolute; inset: 5px;
+  border: 1px solid rgba(201,146,42,0.5);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.jharokha {
+  position: absolute;
+  width: 70px; height: 70px;
+  z-index: 20;
+  background: var(--paper);
+}
+.jharokha.tl { top: -2px; left: -2px; }
+.jharokha.tr { top: -2px; right: -2px; transform: scaleX(-1); }
+.jharokha.bl { bottom: -2px; left: -2px; transform: scaleY(-1); }
+.jharokha.br { bottom: -2px; right: -2px; transform: scale(-1); }
+.jharokha svg { width: 70px; height: 70px; }
+
+.blockprint {
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  background: var(--terr);
+}
+.blockprint-inner {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+.bp-motif {
+  color: var(--sand);
+  font-size: 13px;
+  opacity: 0.85;
+  letter-spacing: 2px;
+}
+.blockprint.teal { background: var(--teal2); }
+.blockprint.gold-band {
+  background: linear-gradient(90deg, var(--gold2), var(--saffron2), var(--gold3), var(--saffron2), var(--gold2));
+  height: 8px;
+}
+
+.header {
+  background: linear-gradient(180deg, #F0D8A8 0%, var(--sand) 60%, var(--paper2) 100%);
+  padding: 28px 40px 22px;
+  text-align: center;
+  position: relative;
+  border-bottom: 2px solid var(--gold2);
+  overflow: hidden;
+}
+.header::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%23C9922A' stroke-width='0.5' stroke-opacity='0.12'/%3E%3Ccircle cx='50' cy='50' r='15' fill='none' stroke='%23C9922A' stroke-width='0.5' stroke-opacity='0.12'/%3E%3Cpath d='M50 20 Q60 35 50 50 Q40 35 50 20z' fill='%23C9922A' fill-opacity='0.05'/%3E%3Cpath d='M80 50 Q65 60 50 50 Q65 40 80 50z' fill='%23C9922A' fill-opacity='0.05'/%3E%3Cpath d='M50 80 Q40 65 50 50 Q60 65 50 80z' fill='%23C9922A' fill-opacity='0.05'/%3E%3Cpath d='M20 50 Q35 40 50 50 Q35 60 20 50z' fill='%23C9922A' fill-opacity='0.05'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+.header-om {
+  font-family: 'Philosopher', serif;
+  font-size: 44px;
+  color: var(--terr);
+  line-height: 1;
+  margin-bottom: 4px;
+  text-shadow: 2px 2px 0 rgba(201,146,42,0.3);
+  animation: glow 3s ease-in-out infinite;
+}
+@keyframes glow {
+  0%,100% { text-shadow: 2px 2px 0 rgba(201,146,42,0.3); }
+  50% { text-shadow: 2px 2px 8px rgba(201,146,42,0.6), 0 0 20px rgba(232,133,10,0.3); }
+}
+.header-divider {
+  display: flex; align-items: center; gap: 10px;
+  margin: 8px auto 12px;
+  max-width: 500px;
+}
+.hd-line { flex: 1; height: 1.5px; background: linear-gradient(90deg, transparent, var(--gold2), transparent); }
+.hd-diamond { width: 8px; height: 8px; background: var(--terr); transform: rotate(45deg); flex-shrink: 0; }
+.hd-text { font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 4px; color: var(--terr); white-space: nowrap; }
+.header-title { font-family: 'Cinzel', serif; font-size: 34px; font-weight: 900; color: var(--terr3); letter-spacing: 3px; text-transform: uppercase; line-height: 1.1; position: relative; z-index: 1; }
+.header-title span { color: var(--saffron); }
+.header-subtitle { font-family: 'Philosopher', serif; font-style: italic; font-size: 15px; color: var(--mid); letter-spacing: 2px; margin-top: 6px; position: relative; z-index: 1; }
+.header-tags { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 14px; position: relative; z-index: 1; }
+.htag { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 2px; text-transform: uppercase; padding: 5px 14px; border: 1px solid var(--gold2); color: var(--terr3); background: rgba(201,146,42,0.1); position: relative; }
+.htag::before, .htag::after { content: '◆'; font-size: 5px; position: absolute; top: 50%; transform: translateY(-50%); color: var(--gold2); }
+.htag::before { left: 4px; }
+.htag::after { right: 4px; }
+
+/* HERO */
+.hero {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  background: var(--paper);
+  border-bottom: 1px solid var(--sand2);
+}
+.photo-col {
+  background: linear-gradient(180deg, var(--sand) 0%, var(--paper2) 100%);
+  border-right: 2px solid var(--gold2);
+  padding: 24px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.photo-arch { position: relative; width: 160px; }
+.arch-top svg { width: 160px; display: block; }
+.photo-box {
+  width: 160px; height: 185px;
+  overflow: hidden;
+  border-left: 3px solid var(--gold2);
+  border-right: 3px solid var(--gold2);
+  border-bottom: 3px solid var(--gold2);
+  position: relative;
+}
+.photo-box img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+.photo-box-placeholder {
+  width: 100%; height: 100%;
+  background: linear-gradient(135deg, var(--sand), var(--sand2));
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; gap: 8px; color: var(--mid);
+}
+.photo-name-plate {
+  width: 100%;
+  background: var(--terr);
+  text-align: center;
+  padding: 7px 10px;
+  border: 1px solid var(--gold2);
+  margin-top: 2px;
+}
+.photo-name-plate span { font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 1.5px; color: var(--sand); }
+
+/* EXTRA PHOTOS ROW */
+.extra-photos-row {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.small-photo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.small-photo-box {
+  width: 72px; height: 82px;
+  border: 2px solid var(--gold2);
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--sand), var(--sand2));
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; gap: 4px; color: var(--mid);
+}
+.small-photo-box img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+.small-photo-label {
+  font-family: 'Cinzel', serif;
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: var(--mid);
+  text-align: center;
+}
+
+.quick-vitals { width: 100%; border: 1px solid var(--sand3); background: rgba(201,146,42,0.06); }
+.qv-title { background: var(--terr); text-align: center; padding: 5px; font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 2px; color: var(--sand); text-transform: uppercase; }
+.qv-row { display: flex; justify-content: space-between; padding: 5px 10px; border-bottom: 1px dashed rgba(201,146,42,0.3); font-size: 11px; }
+.qv-row:last-child { border: none; }
+.qv-k { color: var(--mid); font-weight: 600; font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 0.5px; }
+.qv-v { color: var(--ink); font-family: 'Lora', serif; font-size: 11px; }
+
+.info-col { padding: 24px 32px; }
+
+.sec { margin-bottom: 18px; }
+.sec-title { display: flex; align-items: center; gap: 0; margin-bottom: 10px; }
+.sec-title-inner { font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--sand); background: var(--terr); padding: 5px 16px; position: relative; }
+.sec-title-inner::after { content: ''; position: absolute; right: -10px; top: 0; border-left: 10px solid var(--terr); border-top: 15px solid transparent; border-bottom: 15px solid transparent; height: 0; width: 0; }
+.sec-title-line { flex: 1; height: 2px; background: linear-gradient(90deg, var(--sand3), transparent); margin-left: 16px; }
+
+.irow { display: flex; gap: 8px; padding: 5px 0; border-bottom: 1px dashed rgba(201,146,42,0.25); align-items: baseline; }
+.irow:last-child { border: none; }
+.ikey { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--terr3); min-width: 112px; flex-shrink: 0; font-weight: 700; }
+.ival { font-family: 'Lora', serif; font-size: 13.5px; color: var(--ink); line-height: 1.5; }
+.ival em { font-size: 12px; color: var(--mid); display: block; font-style: italic; }
+.ival strong { color: var(--terr3); }
+.ival a { color: var(--saffron); text-decoration: none; }
+.ival a:hover { color: var(--terr); }
+
+/* salary highlight */
+.salary-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--teal2), var(--teal));
+  color: var(--sand);
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border: 1px solid var(--teal);
+}
+
+.content { padding: 0 24px 20px; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--sand3); margin-bottom: 18px; }
+.col-panel { padding: 20px 22px; border-right: 1px solid var(--sand3); }
+.col-panel:last-child { border-right: none; }
+.col-panel.shaded { background: linear-gradient(180deg, rgba(201,146,42,0.06), transparent); }
+
+.sisters-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 18px; }
+.sister-card { border: 1.5px solid var(--sand3); background: linear-gradient(180deg, rgba(240,216,168,0.4) 0%, var(--paper) 100%); position: relative; overflow: hidden; }
+.sister-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--terr), var(--saffron), var(--gold3)); }
+.sister-header { background: linear-gradient(90deg, var(--sand), var(--paper2)); padding: 10px 14px 8px; border-bottom: 1px solid var(--sand3); }
+.sister-num { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 2px; color: var(--saffron); margin-bottom: 2px; }
+.sister-name { font-family: 'Philosopher', serif; font-size: 14px; font-weight: 700; color: var(--terr3); }
+.sister-prof { font-family: 'Lora', serif; font-style: italic; font-size: 11px; color: var(--mid); }
+.sister-body { padding: 10px 14px; }
+.srow { display: flex; gap: 6px; padding: 3px 0; border-bottom: 1px dotted rgba(201,146,42,0.2); font-size: 11.5px; }
+.srow:last-child { border: none; }
+.sk { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 0.5px; color: var(--terr3); min-width: 50px; font-weight: 700; text-transform: uppercase; }
+.sv { font-family: 'Lora', serif; color: var(--ink2); line-height: 1.4; }
+.sv a { color: var(--saffron); text-decoration: none; }
+
+.addr-section { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px; }
+.addr-box { background: linear-gradient(135deg, var(--terr3) 0%, var(--terr2) 50%, var(--terr) 100%); border: 2px solid var(--gold2); padding: 20px 22px; position: relative; overflow: hidden; }
+.addr-box::before { content: ''; position: absolute; inset: 0; background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 0 L11 9 L20 10 L11 11 L10 20 L9 11 L0 10 L9 9z' fill='%23C9922A' fill-opacity='0.08'/%3E%3C/svg%3E"); }
+.addr-label { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 3px; color: var(--sand3); margin-bottom: 10px; text-transform: uppercase; position: relative; z-index: 1; }
+.addr-text { font-family: 'Philosopher', serif; font-size: 16px; line-height: 1.9; color: var(--sand); position: relative; z-index: 1; }
+.addr-text strong { color: var(--sand3); font-size: 18px; }
+.addr-pin { margin-top: 10px; display: inline-block; border: 1px solid rgba(245,230,200,0.3); padding: 3px 14px; font-family: 'Cinzel', serif; font-size: 10px; letter-spacing: 2px; color: var(--sand2); position: relative; z-index: 1; }
+
+.prop-box { border: 1.5px solid var(--sand3); background: linear-gradient(135deg, rgba(26,107,107,0.08), rgba(13,77,77,0.05)); border-left: 4px solid var(--teal); padding: 18px 20px; display: flex; flex-direction: column; justify-content: center; }
+.prop-label { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--teal); margin-bottom: 6px; }
+.prop-val { font-family: 'Philosopher', serif; font-size: 26px; font-weight: 700; color: var(--terr3); margin-bottom: 2px; }
+.prop-sub { font-family: 'Lora', serif; font-style: italic; font-size: 12px; color: var(--mid); }
+.identity-box { border: 1.5px solid var(--sand3); background: rgba(201,146,42,0.06); padding: 16px 20px; }
+.ib-title { font-family: 'Cinzel', serif; font-size: 9px; letter-spacing: 2px; color: var(--saffron); text-transform: uppercase; margin-bottom: 8px; border-bottom: 1px solid var(--sand3); padding-bottom: 6px; }
+.ib-row { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px dotted rgba(201,146,42,0.2); font-size: 12px; }
+.ib-row:last-child { border: none; }
+.ib-k { font-family: 'Cinzel', serif; font-size: 9px; color: var(--terr3); font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }
+.ib-v { font-family: 'Lora', serif; color: var(--ink); }
+
+/* CONTACT SECTION */
+.contact-section {
+  border: 2px solid var(--gold2);
+  background: linear-gradient(135deg, rgba(201,146,42,0.08), rgba(201,146,42,0.03));
+  padding: 16px 22px;
+  margin-bottom: 18px;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+.contact-card {
+  background: var(--terr);
+  border: 1px solid var(--gold2);
+  padding: 12px 14px;
+  text-align: center;
+}
+.contact-card-label {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--sand2);
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+.contact-card-num {
+  font-family: 'Philosopher', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--sand);
+}
+.contact-card a { color: var(--sand); text-decoration: none; }
+
+.footer {
+  background: linear-gradient(180deg, var(--sand) 0%, var(--sand2) 100%);
+  border-top: 2px solid var(--gold2);
+  padding: 18px 36px 16px;
+  position: relative;
+}
+.footer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--gold3), transparent); top: 3px; }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.footer-shlok { font-family: 'Philosopher', serif; font-size: 19px; color: var(--terr3); margin-bottom: 3px; }
+.footer-meaning { font-family: 'Lora', serif; font-style: italic; font-size: 11px; color: var(--mid); }
+
+@keyframes fadeIn { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:none} }
+.header { animation: fadeIn 0.5s ease both; }
+.hero { animation: fadeIn 0.5s 0.15s ease both; }
+.content { animation: fadeIn 0.5s 0.3s ease both; }
+.footer { animation: fadeIn 0.5s 0.45s ease both; }
+
+@media print { body { background: white; padding: 0; } * { animation: none !important; } }
+@media (max-width: 700px) {
+  .hero { grid-template-columns: 1fr; }
+  .photo-col { border-right: none; border-bottom: 1px solid var(--gold2); }
+  .two-col { grid-template-columns: 1fr; }
+  .sisters-grid { grid-template-columns: 1fr; }
+  .addr-section { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; text-align: center; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+<div class="border-wrap">
+
+  <!-- CORNER JHAROKHAS -->
+  <div class="jharokha tl">
+    <svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 4 L66 4 L66 6 L6 6 L6 66 L4 66 Z" fill="#C9922A"/>
+      <path d="M4 4 L4 40 Q4 24 18 18 L18 4Z" fill="#C0392B" opacity="0.15"/>
+      <path d="M8 38 Q8 20 20 12 Q32 4 38 8" stroke="#C9922A" stroke-width="1" fill="none"/>
+      <circle cx="14" cy="14" r="7" fill="#C0392B"/>
+      <circle cx="14" cy="14" r="4" fill="#C9922A"/>
+      <circle cx="14" cy="14" r="2" fill="#F5E6C8"/>
+      <ellipse cx="14" cy="7" rx="2" ry="4" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="14" cy="21" rx="2" ry="4" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="7" cy="14" rx="4" ry="2" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="21" cy="14" rx="4" ry="2" fill="#C9922A" opacity="0.7"/>
+      <circle cx="28" cy="8" r="2" fill="#E8850A"/>
+      <circle cx="8" cy="28" r="2" fill="#E8850A"/>
+      <circle cx="22" cy="22" r="1.5" fill="#C9922A"/>
+      <rect x="34" y="6" width="5" height="5" transform="rotate(45 36.5 8.5)" fill="#C9922A" opacity="0.5"/>
+      <rect x="6" y="34" width="5" height="5" transform="rotate(45 8.5 36.5)" fill="#C9922A" opacity="0.5"/>
+    </svg>
+  </div>
+  <div class="jharokha tr">
+    <svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 4 L66 4 L66 6 L6 6 L6 66 L4 66 Z" fill="#C9922A"/>
+      <path d="M4 4 L4 40 Q4 24 18 18 L18 4Z" fill="#C0392B" opacity="0.15"/>
+      <path d="M8 38 Q8 20 20 12 Q32 4 38 8" stroke="#C9922A" stroke-width="1" fill="none"/>
+      <circle cx="14" cy="14" r="7" fill="#C0392B"/>
+      <circle cx="14" cy="14" r="4" fill="#C9922A"/>
+      <circle cx="14" cy="14" r="2" fill="#F5E6C8"/>
+      <ellipse cx="14" cy="7" rx="2" ry="4" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="14" cy="21" rx="2" ry="4" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="7" cy="14" rx="4" ry="2" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="21" cy="14" rx="4" ry="2" fill="#C9922A" opacity="0.7"/>
+      <circle cx="28" cy="8" r="2" fill="#E8850A"/>
+      <circle cx="8" cy="28" r="2" fill="#E8850A"/>
+      <circle cx="22" cy="22" r="1.5" fill="#C9922A"/>
+      <rect x="34" y="6" width="5" height="5" transform="rotate(45 36.5 8.5)" fill="#C9922A" opacity="0.5"/>
+      <rect x="6" y="34" width="5" height="5" transform="rotate(45 8.5 36.5)" fill="#C9922A" opacity="0.5"/>
+    </svg>
+  </div>
+  <div class="jharokha bl">
+    <svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 4 L66 4 L66 6 L6 6 L6 66 L4 66 Z" fill="#C9922A"/>
+      <path d="M4 4 L4 40 Q4 24 18 18 L18 4Z" fill="#C0392B" opacity="0.15"/>
+      <path d="M8 38 Q8 20 20 12 Q32 4 38 8" stroke="#C9922A" stroke-width="1" fill="none"/>
+      <circle cx="14" cy="14" r="7" fill="#C0392B"/>
+      <circle cx="14" cy="14" r="4" fill="#C9922A"/>
+      <circle cx="14" cy="14" r="2" fill="#F5E6C8"/>
+      <ellipse cx="14" cy="7" rx="2" ry="4" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="14" cy="21" rx="2" ry="4" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="7" cy="14" rx="4" ry="2" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="21" cy="14" rx="4" ry="2" fill="#C9922A" opacity="0.7"/>
+      <circle cx="28" cy="8" r="2" fill="#E8850A"/>
+      <circle cx="8" cy="28" r="2" fill="#E8850A"/>
+      <circle cx="22" cy="22" r="1.5" fill="#C9922A"/>
+      <rect x="34" y="6" width="5" height="5" transform="rotate(45 36.5 8.5)" fill="#C9922A" opacity="0.5"/>
+      <rect x="6" y="34" width="5" height="5" transform="rotate(45 8.5 36.5)" fill="#C9922A" opacity="0.5"/>
+    </svg>
+  </div>
+  <div class="jharokha br">
+    <svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 4 L66 4 L66 6 L6 6 L6 66 L4 66 Z" fill="#C9922A"/>
+      <path d="M4 4 L4 40 Q4 24 18 18 L18 4Z" fill="#C0392B" opacity="0.15"/>
+      <path d="M8 38 Q8 20 20 12 Q32 4 38 8" stroke="#C9922A" stroke-width="1" fill="none"/>
+      <circle cx="14" cy="14" r="7" fill="#C0392B"/>
+      <circle cx="14" cy="14" r="4" fill="#C9922A"/>
+      <circle cx="14" cy="14" r="2" fill="#F5E6C8"/>
+      <ellipse cx="14" cy="7" rx="2" ry="4" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="14" cy="21" rx="2" ry="4" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="7" cy="14" rx="4" ry="2" fill="#C9922A" opacity="0.7"/>
+      <ellipse cx="21" cy="14" rx="4" ry="2" fill="#C9922A" opacity="0.7"/>
+      <circle cx="28" cy="8" r="2" fill="#E8850A"/>
+      <circle cx="8" cy="28" r="2" fill="#E8850A"/>
+      <circle cx="22" cy="22" r="1.5" fill="#C9922A"/>
+      <rect x="34" y="6" width="5" height="5" transform="rotate(45 36.5 8.5)" fill="#C9922A" opacity="0.5"/>
+      <rect x="6" y="34" width="5" height="5" transform="rotate(45 8.5 36.5)" fill="#C9922A" opacity="0.5"/>
+    </svg>
+  </div>
+
+  <!-- TOP BANDS -->
+  <div class="blockprint gold-band"></div>
+  <div class="blockprint">
+    <div class="blockprint-inner"><span class="bp-motif">✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿</span></div>
+  </div>
+  <div class="blockprint gold-band"></div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-om">ॐ</div>
+    <div class="header-divider">
+      <div class="hd-line"></div>
+      <div class="hd-diamond"></div>
+      <span class="hd-text">✦ &nbsp; श्री गणेशाय नमः &nbsp; ✦</span>
+      <div class="hd-diamond"></div>
+      <div class="hd-line"></div>
+    </div>
+    <div class="header-title">Vivah <span>Biodata</span></div>
+    <div class="header-subtitle">— Agharia Samaj &nbsp;·&nbsp; Kashyap Gotra —</div>
+    <div class="header-tags">
+      <span class="htag">Agharia Samaj</span>
+      <span class="htag">Kashyap Gotra</span>
+      <span class="htag">Vrishabh Rashi ♉</span>
+      <span class="htag">Hindu</span>
+      <span class="htag">M.Tech · NIT Raipur</span>
+      <span class="htag">Govt. Engineer</span>
+    </div>
+  </div>
+
+  <div class="blockprint gold-band"></div>
+  <div class="blockprint teal">
+    <div class="blockprint-inner"><span class="bp-motif">◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆</span></div>
+  </div>
+  <div class="blockprint gold-band"></div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="photo-col">
+      <!-- Main arch photo -->
+      <div class="photo-arch">
+        <div class="arch-top">
+          <svg viewBox="0 0 160 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="3" height="60" fill="#C9922A"/>
+            <rect x="157" y="0" width="3" height="60" fill="#C9922A"/>
+            <path d="M3 60 L3 30 Q3 5 80 5 Q157 5 157 30 L157 60 Z" fill="#F5E6C8"/>
+            <path d="M3 60 L3 30 Q3 5 80 5 Q157 5 157 30 L157 60 Z" stroke="#C9922A" stroke-width="1.5" fill="none"/>
+            <path d="M20 60 L20 35 Q20 18 80 18 Q140 18 140 35 L140 60" stroke="#C0392B" stroke-width="0.8" fill="none" opacity="0.5"/>
+            <path d="M68 5 Q80 0 92 5" stroke="#C9922A" stroke-width="1.5" fill="none"/>
+            <path d="M72 3 Q80 -2 88 3" stroke="#C0392B" stroke-width="1" fill="none"/>
+            <circle cx="80" cy="5" r="4" fill="#C0392B"/>
+            <circle cx="80" cy="5" r="2" fill="#E8850A"/>
+            <circle cx="50" cy="10" r="3" fill="#C9922A" opacity="0.7"/>
+            <circle cx="110" cy="10" r="3" fill="#C9922A" opacity="0.7"/>
+            <line x1="50" y1="13" x2="50" y2="20" stroke="#C9922A" stroke-width="0.8"/>
+            <line x1="110" y1="13" x2="110" y2="20" stroke="#C9922A" stroke-width="0.8"/>
+            <circle cx="50" cy="22" r="2" fill="#E8850A"/>
+            <circle cx="110" cy="22" r="2" fill="#E8850A"/>
+            <circle cx="18" cy="18" r="5" fill="#C0392B" opacity="0.4"/>
+            <circle cx="142" cy="18" r="5" fill="#C0392B" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="photo-box">
+          <img src="v.jpeg" alt="Vinod Kumar Naik"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="photo-box-placeholder" style="display:none;">
+            <span style="font-size:36px;">🙏</span>
+            <span style="font-size:11px;letter-spacing:2px;font-family:'Cinzel',serif;">PHOTO 1</span>
+          </div>
+        </div>
+      </div>
+      <div class="photo-name-plate"><span>Vinod Kumar Naik</span></div>
+
+      <!-- Quick vitals -->
+      <div class="quick-vitals">
+        <div class="qv-title">✦ At a Glance ✦</div>
+        <div class="qv-row"><span class="qv-k">DOB</span><span class="qv-v">17 Mar 1993</span></div>
+        <div class="qv-row"><span class="qv-k">Blood</span><span class="qv-v">O Positive</span></div>
+        <div class="qv-row"><span class="qv-k">Height</span><span class="qv-v">5 ft 11 in</span></div>
+        <div class="qv-row"><span class="qv-k">Weight</span><span class="qv-v">70 Kg</span></div>
+        <div class="qv-row"><span class="qv-k">Rashi</span><span class="qv-v">Vrishabh ♉</span></div>
+        <div class="qv-row"><span class="qv-k">Gotra</span><span class="qv-v">Kashyap</span></div>
+        <div class="qv-row"><span class="qv-k">Caste</span><span class="qv-v">Agharia</span></div>
+      </div>
+    </div>
+
+    <div class="info-col">
+      <!-- PERSONAL -->
+      <div class="sec">
+        <div class="sec-title">
+          <div class="sec-title-inner">🪔 Personal Details</div>
+          <div class="sec-title-line"></div>
+        </div>
+        <div class="irow"><span class="ikey">Full Name</span><span class="ival"><strong>Vinod Kumar Naik</strong></span></div>
+        <div class="irow"><span class="ikey">Date of Birth</span><span class="ival">17th March 1993</span></div>
+        <div class="irow"><span class="ikey">Rashi</span><span class="ival">Vrishabh (Taurus ♉)</span></div>
+        <div class="irow"><span class="ikey">Blood Group</span><span class="ival">O Positive (O⁺)</span></div>
+        <div class="irow"><span class="ikey">Height / Wt.</span><span class="ival">5 Feet 11 Inches &nbsp;·&nbsp; 70 Kg</span></div>
+        <div class="irow"><span class="ikey">Gotra / Caste</span><span class="ival">Kashyap &nbsp;·&nbsp; Agharia</span></div>
+      </div>
+
+      <!-- PROFESSIONAL -->
+      <div class="sec">
+        <div class="sec-title">
+          <div class="sec-title-inner">⚡ Professional Details</div>
+          <div class="sec-title-line"></div>
+        </div>
+        <div class="irow"><span class="ikey">Designation</span><span class="ival"><strong>Assistant Engineer</strong></span></div>
+        <div class="irow"><span class="ikey">Organisation</span><span class="ival">CSPTCL, Raipur (C.G.)<em>Chhattisgarh State Power Transmission Co. Ltd.</em></span></div>
+        <div class="irow"><span class="ikey">Posting</span><span class="ival">400KV Substation Division, Jagdalpur</span></div>
+        <div class="irow"><span class="ikey">Annual Salary</span><span class="ival"><span class="salary-badge">₹ 13.52 Lakh / Year</span></span></div>
+        <div class="irow"><span class="ikey">Previous</span><span class="ival">Junior Engineer — CSPDCL<em>Daura Kochli DC, Balarampur Division</em></span></div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="sec">
+        <div class="sec-title">
+          <div class="sec-title-inner">📚 Education</div>
+          <div class="sec-title-line"></div>
+        </div>
+        <div class="irow"><span class="ikey">B.E.</span><span class="ival">Electrical &amp; Electronics Engineering<em>CSIT, Durg</em></span></div>
+        <div class="irow"><span class="ikey">M.Tech</span><span class="ival">Power System &amp; Control<em>NIT Raipur</em></span></div>
+      </div>
+    </div>
+  </div><!-- /hero -->
+
+  <!-- MID BANDS -->
+  <div class="blockprint gold-band"></div>
+  <div class="blockprint">
+    <div class="blockprint-inner"><span class="bp-motif">✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿</span></div>
+  </div>
+  <div class="blockprint gold-band"></div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+    <!-- FAMILY -->
+    <div style="margin-top:18px;">
+      <div class="sec-title" style="margin-bottom:12px;">
+        <div class="sec-title-inner">🪷 Family Details</div>
+        <div class="sec-title-line"></div>
+      </div>
+      <div class="two-col">
+        <div class="col-panel shaded">
+          <div style="font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:var(--saffron);margin-bottom:8px;text-transform:uppercase;">Paternal Family</div>
+          <div class="irow"><span class="ikey">Grandfather</span><span class="ival">Shri Padumlal Naik</span></div>
+          <div class="irow"><span class="ikey">Grandmother</span><span class="ival">Smt. Sadhmati Naik</span></div>
+          <div class="irow"><span class="ikey">Father</span><span class="ival">Shri Yadram Naik<em>Retired Govt. Middle School H.M.</em></span></div>
+          <div class="irow"><span class="ikey">Father's Mob.</span><span class="ival"><a href="tel:+919630306812">📞 9630306812</a></span></div>
+          <div class="irow"><span class="ikey">Mother</span><span class="ival">Smt. Devkumari Naik<em>Homemaker</em></span></div>
+        </div>
+        <div class="col-panel">
+          <div style="font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;color:var(--saffron);margin-bottom:8px;text-transform:uppercase;">Maternal Family</div>
+          <div class="irow"><span class="ikey">Nana</span><span class="ival">Late Shri Rohit Patel</span></div>
+          <div class="irow"><span class="ikey">Nani</span><span class="ival">Smt. Ujjal Kumari Patel</span></div>
+          <div class="irow"><span class="ikey">Village</span><span class="ival">Reda (Dabhra)<em>District Sakti</em></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SISTERS -->
+    <div class="sec-title" style="margin-bottom:12px;">
+      <div class="sec-title-inner">👧 Siblings — Three Sisters (All Married)</div>
+      <div class="sec-title-line"></div>
+    </div>
+    <div class="sisters-grid">
+      <div class="sister-card">
+        <div class="sister-header">
+          <div class="sister-num">SISTER · I</div>
+          <div class="sister-name">Smt. Rama Patel</div>
+          <div class="sister-prof">Govt. Assistant Teacher</div>
+        </div>
+        <div class="sister-body">
+          <div class="srow"><span class="sk">Jijaji</span><span class="sv">Shri Sanjay Patel</span></div>
+          <div class="srow"><span class="sk">His Post</span><span class="sv">Govt. Asst. Teacher</span></div>
+          <div class="srow"><span class="sk">Mobile</span><span class="sv"><a href="tel:+917509090609">📞 7509090609</a></span></div>
+          <div class="srow"><span class="sk">Address</span><span class="sv">Vill. Madhopali, Dist. Sarangarh-Bilaigarh</span></div>
+        </div>
+      </div>
+      <div class="sister-card">
+        <div class="sister-header">
+          <div class="sister-num">SISTER · II</div>
+          <div class="sister-name">Smt. Shyama Patel</div>
+          <div class="sister-prof">Homemaker</div>
+        </div>
+        <div class="sister-body">
+          <div class="srow"><span class="sk">Jijaji</span><span class="sv">Shri Bhanu Pratap Patel</span></div>
+          <div class="srow"><span class="sk">His Post</span><span class="sv">Govt. Teacher</span></div>
+          <div class="srow"><span class="sk">Village</span><span class="sv">Nawapara (Kiritmal), Dist. Raigarh</span></div>
+          <div class="srow"><span class="sk">Residing</span><span class="sv">Raigarh</span></div>
+        </div>
+      </div>
+      <div class="sister-card">
+        <div class="sister-header">
+          <div class="sister-num">SISTER · III</div>
+          <div class="sister-name">Smt. Uma Patel</div>
+          <div class="sister-prof">Govt. Assistant Teacher</div>
+        </div>
+        <div class="sister-body">
+          <div class="srow"><span class="sk">Jijaji</span><span class="sv">Shri Nandkishor Patel</span></div>
+          <div class="srow"><span class="sk">His Post</span><span class="sv">Training Officer, Govt. ITI Raigarh</span></div>
+          <div class="srow"><span class="sk">Village</span><span class="sv">Lendhra, Dist. Sarangarh-Bilaigarh</span></div>
+          <div class="srow"><span class="sk">Residing</span><span class="sv">Raigarh</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ADDRESS + PROPERTY -->
+    <div class="addr-section">
+      <div class="addr-box">
+        <div class="addr-label">✦ स्थायी पता &nbsp;·&nbsp; Permanent Address ✦</div>
+        <div class="addr-text">
+          Village — <strong>Jampali (Surri)</strong><br>
+          Post <strong>Tadola</strong> · Tehsil <strong>Pussore</strong><br>
+          District <strong>Raigarh</strong>, Chhattisgarh
+        </div>
+        <div class="addr-pin">PIN — 496440</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div class="prop-box">
+          <div class="prop-label">🌾 Agricultural Property</div>
+          <div class="prop-val">26 Acres</div>
+          <div class="prop-sub">Own agricultural land in Chhattisgarh</div>
+        </div>
+        <div class="identity-box">
+          <div class="ib-title">✦ Identity</div>
+          <div class="ib-row"><span class="ib-k">Caste</span><span class="ib-v">Agharia</span></div>
+          <div class="ib-row"><span class="ib-k">Gotra</span><span class="ib-v">Kashyap</span></div>
+          <div class="ib-row"><span class="ib-k">Religion</span><span class="ib-v">Hindu</span></div>
+          <div class="ib-row"><span class="ib-k">Language</span><span class="ib-v">Hindi / Chhattisgarhi</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-section">
+      <div class="sec-title" style="margin-bottom:0;">
+        <div class="sec-title-inner">📞 Contact Details</div>
+        <div class="sec-title-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-card-label">Father</div>
+          <div class="contact-card-num"><a href="tel:+919630306812">9630306812</a></div>
+          <div style="font-family:'Lora',serif;font-size:10px;color:var(--sand2);margin-top:3px;">Shri Yadram Naik</div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-label">Self</div>
+          <div class="contact-card-num"><a href="tel:+918827778232">8827778232</a></div>
+          <div style="font-family:'Lora',serif;font-size:10px;color:var(--sand2);margin-top:3px;">Vinod Kumar Naik</div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-label">Jijaji (Sister I)</div>
+          <div class="contact-card-num"><a href="tel:+917509090609">7509090609</a></div>
+          <div style="font-family:'Lora',serif;font-size:10px;color:var(--sand2);margin-top:3px;">Shri Sanjay Patel</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXTRA PHOTOS AT BOTTOM -->
+    <div class="blockprint gold-band" style="margin:0 -24px 18px;"></div>
+    <div class="sec-title" style="margin-bottom:14px;">
+      <div class="sec-title-inner">📸 More Photos</div>
+      <div class="sec-title-line"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:18px;">
+      <!-- Photo 2 -->
+      <div style="display:flex;flex-direction:column;align-items:center;gap:0;">
+        <div style="position:relative;width:100%;">
+          <svg viewBox="0 0 100 30" width="100%" style="display:block;" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="2" height="30" fill="#C9922A"/>
+            <rect x="98" y="0" width="2" height="30" fill="#C9922A"/>
+            <path d="M2 30 L2 15 Q2 3 50 3 Q98 3 98 15 L98 30 Z" fill="#F5E6C8" stroke="#C9922A" stroke-width="1"/>
+            <circle cx="50" cy="3" r="3" fill="#C0392B"/>
+            <circle cx="50" cy="3" r="1.5" fill="#E8850A"/>
+            <circle cx="30" cy="6" r="2" fill="#C9922A" opacity="0.7"/>
+            <circle cx="70" cy="6" r="2" fill="#C9922A" opacity="0.7"/>
+          </svg>
+          <div style="width:100%;height:260px;border-left:3px solid var(--gold2);border-right:3px solid var(--gold2);border-bottom:3px solid var(--gold2);overflow:hidden;background:linear-gradient(135deg,var(--sand),var(--sand2));display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;">
+            <img src="photo2.jpg" alt="Vinod Kumar Naik — Photo 2" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div style="display:none;flex-direction:column;align-items:center;gap:8px;color:var(--mid);">
+              <span style="font-size:48px;">📷</span>
+              <span style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:2px;">PHOTO 2</span>
+              <span style="font-family:'Lora',serif;font-size:10px;font-style:italic;color:var(--mid);">Place photo2.jpg here</span>
+            </div>
+          </div>
+        </div>
+        <div style="width:100%;background:var(--terr);text-align:center;padding:8px 10px;border:1px solid var(--gold2);">
+          <span style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:1.5px;color:var(--sand);">Vinod Kumar Naik</span>
+        </div>
+      </div>
+      <!-- Photo 3 -->
+      <div style="display:flex;flex-direction:column;align-items:center;gap:0;">
+        <div style="position:relative;width:100%;">
+          <svg viewBox="0 0 100 30" width="100%" style="display:block;" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="2" height="30" fill="#C9922A"/>
+            <rect x="98" y="0" width="2" height="30" fill="#C9922A"/>
+            <path d="M2 30 L2 15 Q2 3 50 3 Q98 3 98 15 L98 30 Z" fill="#F5E6C8" stroke="#C9922A" stroke-width="1"/>
+            <circle cx="50" cy="3" r="3" fill="#C0392B"/>
+            <circle cx="50" cy="3" r="1.5" fill="#E8850A"/>
+            <circle cx="30" cy="6" r="2" fill="#C9922A" opacity="0.7"/>
+            <circle cx="70" cy="6" r="2" fill="#C9922A" opacity="0.7"/>
+          </svg>
+          <div style="width:100%;height:260px;border-left:3px solid var(--gold2);border-right:3px solid var(--gold2);border-bottom:3px solid var(--gold2);overflow:hidden;background:linear-gradient(135deg,var(--sand),var(--sand2));display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;">
+            <img src="photo3.jpg" alt="Vinod Kumar Naik — Photo 3" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div style="display:none;flex-direction:column;align-items:center;gap:8px;color:var(--mid);">
+              <span style="font-size:48px;">📷</span>
+              <span style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:2px;">PHOTO 3</span>
+              <span style="font-family:'Lora',serif;font-size:10px;font-style:italic;color:var(--mid);">Place photo3.jpg here</span>
+            </div>
+          </div>
+        </div>
+        <div style="width:100%;background:var(--terr);text-align:center;padding:8px 10px;border:1px solid var(--gold2);">
+          <span style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:1.5px;color:var(--sand);">Vinod Kumar Naik</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /content -->
+
+  <!-- BOTTOM BANDS -->
+  <div class="blockprint gold-band"></div>
+  <div class="blockprint teal">
+    <div class="blockprint-inner"><span class="bp-motif">◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆ ❋ ◆</span></div>
+  </div>
+  <div class="blockprint gold-band"></div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-shlok">ॐ शुभ विवाह — श्री गणेशाय नमः</div>
+        <div class="footer-meaning">"Let noble thoughts come to us from all directions" — Rigveda 1.89.1</div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;">
+        <a href="tel:+919630306812" style="display:flex;align-items:center;gap:8px;padding:9px 18px;border:1.5px solid var(--terr);background:var(--terr);color:var(--sand);text-decoration:none;font-family:'Cinzel',serif;font-size:11px;letter-spacing:1px;">📞 Father · 9630306812</a>
+        <a href="tel:+918827778232" style="display:flex;align-items:center;gap:8px;padding:9px 18px;border:1.5px solid var(--terr);background:var(--terr);color:var(--sand);text-decoration:none;font-family:'Cinzel',serif;font-size:11px;letter-spacing:1px;">📞 Self · 8827778232</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="blockprint gold-band"></div>
+  <div class="blockprint">
+    <div class="blockprint-inner"><span class="bp-motif">✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿</span></div>
+  </div>
+  <div class="blockprint gold-band"></div>
+
+</div><!-- /border-wrap -->
+</div><!-- /page -->
+</body>
+</html>
