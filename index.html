@@ -337,7 +337,7 @@ body {
   position: relative;
 }
 .footer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--gold3), transparent); top: 3px; }
-.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.footer-inner { display: flex; align-items: center; justify-content: center; gap: 20px; }
 .footer-shlok { font-family: 'Philosopher', serif; font-size: 19px; color: var(--terr3); margin-bottom: 3px; }
 .footer-meaning { font-family: 'Lora', serif; font-style: italic; font-size: 11px; color: var(--mid); }
 
@@ -842,10 +842,11 @@ body {
             <circle cx="30" cy="6" r="2" fill="#C9922A" opacity="0.7"/>
             <circle cx="70" cy="6" r="2" fill="#C9922A" opacity="0.7"/>
           </svg>
-          <div style="width:100%;height:260px;border-left:3px solid var(--gold2);border-right:3px solid var(--gold2);border-bottom:3px solid var(--gold2);overflow:hidden;background:linear-gradient(135deg,var(--sand),var(--sand2));display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;">
-            <img src="v2.jpeg" alt="Vinod Kumar Naik — Photo 2" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"
+          <div style="width:100%;border-left:3px solid var(--gold2);border-right:3px solid var(--gold2);border-bottom:3px solid var(--gold2);overflow:hidden;background:#e8d5a8;display:flex;align-items:center;justify-content:center;">
+            <img src="v2.jpeg" alt="Vinod Kumar Naik — Photo 2"
+              style="width:100%;height:auto;max-height:420px;object-fit:contain;display:block;"
               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-            <div style="display:none;flex-direction:column;align-items:center;gap:8px;color:var(--mid);">
+            <div style="display:none;flex-direction:column;align-items:center;gap:8px;color:var(--mid);padding:40px 0;">
               <span style="font-size:48px;">📷</span>
               <span style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:2px;">PHOTO 2</span>
               <span style="font-family:'Lora',serif;font-size:10px;font-style:italic;color:var(--mid);">Place photo2.jpg here</span>
@@ -868,10 +869,11 @@ body {
             <circle cx="30" cy="6" r="2" fill="#C9922A" opacity="0.7"/>
             <circle cx="70" cy="6" r="2" fill="#C9922A" opacity="0.7"/>
           </svg>
-          <div style="width:100%;height:260px;border-left:3px solid var(--gold2);border-right:3px solid var(--gold2);border-bottom:3px solid var(--gold2);overflow:hidden;background:linear-gradient(135deg,var(--sand),var(--sand2));display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;">
-            <img src="v3.jpeg" alt="Vinod Kumar Naik — Photo 3" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;"
+          <div style="width:100%;border-left:3px solid var(--gold2);border-right:3px solid var(--gold2);border-bottom:3px solid var(--gold2);overflow:hidden;background:#e8d5a8;display:flex;align-items:center;justify-content:center;">
+            <img src="v3.jpeg" alt="Vinod Kumar Naik — Photo 3"
+              style="width:100%;height:auto;max-height:420px;object-fit:contain;display:block;"
               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-            <div style="display:none;flex-direction:column;align-items:center;gap:8px;color:var(--mid);">
+            <div style="display:none;flex-direction:column;align-items:center;gap:8px;color:var(--mid);padding:40px 0;">
               <span style="font-size:48px;">📷</span>
               <span style="font-family:'Cinzel',serif;font-size:11px;letter-spacing:2px;">PHOTO 3</span>
               <span style="font-family:'Lora',serif;font-size:10px;font-style:italic;color:var(--mid);">Place photo3.jpg here</span>
@@ -894,20 +896,25 @@ body {
   </div>
   <div class="blockprint gold-band"></div>
 
-  <!-- FOOTER -->
   <div class="footer">
-    <div class="footer-inner">
-      <div>
-        <div class="footer-shlok">ॐ शुभ विवाह — श्री गणेशाय नमः</div>
-        <div class="footer-meaning">"Let noble thoughts come to us from all directions" — Rigveda 1.89.1</div>
-      </div>
-      <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;">
-        <a href="tel:+919630306812" style="display:flex;align-items:center;gap:8px;padding:9px 18px;border:1.5px solid var(--terr);background:var(--terr);color:var(--sand);text-decoration:none;font-family:'Cinzel',serif;font-size:11px;letter-spacing:1px;">📞 Father · 9630306812</a>
-        <a href="tel:+918827778232" style="display:flex;align-items:center;gap:8px;padding:9px 18px;border:1.5px solid var(--terr);background:var(--terr);color:var(--sand);text-decoration:none;font-family:'Cinzel',serif;font-size:11px;letter-spacing:1px;">📞 Self · 8827778232</a>
-      </div>
-    </div>
-  </div>
+  <div class="footer-inner">
 
+    <div>
+      <div class="footer-shlok">Contact Details</div>
+    </div>
+
+    <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;">
+      <a href="tel:+919630306812" style="display:flex;align-items:center;gap:8px;padding:9px 18px;border:1.5px solid var(--terr);background:var(--terr);color:var(--sand);text-decoration:none;font-family:'Cinzel',serif;font-size:11px;letter-spacing:1px;">
+        📞 Father · 9630306812
+      </a>
+
+      <a href="tel:+918827778232" style="display:flex;align-items:center;gap:8px;padding:9px 18px;border:1.5px solid var(--terr);background:var(--terr);color:var(--sand);text-decoration:none;font-family:'Cinzel',serif;font-size:11px;letter-spacing:1px;">
+        📞 Self · 8827778232
+      </a>
+    </div>
+
+  </div>
+</div>
   <div class="blockprint gold-band"></div>
   <div class="blockprint">
     <div class="blockprint-inner"><span class="bp-motif">✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿ ❖ ✿</span></div>
@@ -918,4 +925,3 @@ body {
 </div><!-- /page -->
 </body>
 </html>
-
